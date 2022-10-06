@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alphacode</title>
     <style>
@@ -34,7 +34,7 @@
     include('./crud/delete.php');
     break;
     default:
-    include('./pages/home.php');
+    include('pages/home.php');
 
 
   }
